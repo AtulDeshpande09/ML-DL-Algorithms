@@ -67,7 +67,7 @@ This project involves developing a machine learning model to predict house price
         "prediction": float
     }
     ```
-![alt text](https://github.com/AtulDeshpande09/ML-DL-Algorithms/blob/main/Projects/House_Price_Prediction_API/Images/gui2.png)
+![alt text](https://github.com/AtulDeshpande09/house_price_prediction_API_UI/Images/blob/main/gui2.png)
 
 ### User Interface
 1. Launch the Tkinter interface by running `python ui.py`.
