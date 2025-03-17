@@ -36,7 +36,7 @@ The repository is structured into different sections:
 
 **Graphical Representation:**  
 
-![ML-DL Repository Structure](repo.png)  
+![ML-DL Repository Structure](MLDLRepo.png)  
 
 ---
 <a id="implemented-algorithms"></a>
