@@ -60,7 +60,7 @@ This project involves developing a machine learning model to predict house price
         "age_of_house": int
     }
     ```
-![alt text](https://github.com/AtulDeshpande09/house_price_prediction_API_UI/Images/gui1.png)
+![alt text](https://github.com/AtulDeshpande09/ML-DL-Algorithms/tree/main/Projects/House_Price_Prediction_API/Images/gui1.png)
 - **Response**: JSON object with the predicted price:
     ```json
     {
