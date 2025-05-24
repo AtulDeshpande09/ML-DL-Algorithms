@@ -12,11 +12,11 @@ Each method includes:
 
 ## 📚 Included Methods
 
-- [Min-Max Scaling](./min_max_scaling/)
-- [Robust Scaling](./robust_scaling/)
-- [Absolute Maximum Scaling](./absolute_max_scaling/)
-- [Standard Scaling (Z-score)](./standard_scaling/)
-- [Normalization (L2 Norm)](./normalization/)
+- [Min-Max Scaling](./MinMaxScaling/)
+- [Robust Scaling](./RobustScaling/)
+- [Absolute Maximum Scaling](./AbsoluteMaximumScaling/)
+- [Standard Scaling (Z-score)](./StandardScaling/)
+- [Normalization (L2 Norm)](./Normalization/)
 
 ---
 
