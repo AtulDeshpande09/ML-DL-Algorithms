@@ -27,7 +27,7 @@ if __name__ == '__main__':
             [1,1]
             ]
     Y = []
-    print("AND gate using perceptron")
+    print("OR gate using perceptron")
     for i in X:
         y = ptn.predict(i)
         Y.append(y)
