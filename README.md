@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MLDL-Algorithms  
 A structured repository containing fundamental implementations of **Machine Learning** and **Deep Learning** algorithms from scratch. Covers **supervised, unsupervised, preprocessing techniques**, and deep learning architectures with minimal external dependencies.  
 
