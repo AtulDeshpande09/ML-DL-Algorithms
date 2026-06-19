@@ -1,147 +1,211 @@
-# MLDL-Algorithms  
-A structured repository containing fundamental implementations of **Machine Learning** and **Deep Learning** algorithms from scratch. Covers **supervised, unsupervised, preprocessing techniques**, and deep learning architectures with minimal external dependencies.  
+# Machine Learning & Deep Learning Repository
+
+A comprehensive collection of Machine Learning and Deep Learning implementations, ranging from algorithms built completely from scratch to practical applications using modern frameworks such as Scikit-Learn, PyTorch, TensorFlow, and Keras.
+
+This repository serves as both a learning resource and a reference for understanding the theory and implementation of core AI concepts.
 
 ---
 
-## 📌 Table of Contents  
-- [Introduction](#introduction)  
-- [Repository Structure](#repository-structure)  
-- [Implemented Algorithms](#implemented-algorithms)  
-- [How to Use](#how-to-use)  
-- [Future Plans](#future-plans)  
-- [References](#references)  
+## Repository Structure
 
----
-<a id="introduction"></a>
-## 🔥 Introduction  
-This repository serves as a **personal research and implementation hub** for ML & DL algorithms, covering:  
-✅ **Supervised Learning** (Regression, Decision Trees, Random Forest, KNN, etc.)  
-✅ **Unsupervised Learning** (PCA, K-means Clustering, etc.)  
-✅ **Preprocessing Techniques** (Feature Scaling, Encoding Methods)  
-✅ **Deep Learning Basics** (Neural Networks, XOR Problem, CNNs, etc.)  
-✅ **Projects** (Digit Recognition, Sentiment Analysis, etc.)  
-
-The goal is to provide **hands-on implementations** of these concepts without relying heavily on libraries like Scikit-learn and TensorFlow for core algorithms.  
-
----
-
-<a id="repository-structure"></a>
-## 🏗 Repository Structure  
-
-The repository is structured into different sections:  
-
-📂 **ML Algorithms** → Covers Supervised, Unsupervised Learning, and Preprocessing  
-📂 **Deep Learning** → Covers fundamental neural network implementations  
-📂 **Projects** → Hands-on applied ML/DL projects  
-
-**Graphical Representation:**  
-
-![ML-DL Repository Structure](repo.png)  
-
----
-<a id="implemented-algorithms"></a>
-
-## 🛠 Implemented Algorithms  
-
-### ✅ **Supervised Learning**  
-✔️ Linear Regression  
-✔️ Logistic Regression  
-✔️ Decision Tree  
-✔️ Random Forest  
-✔️ K-Nearest Neighbors (KNN)  
-
-### ✅ **Unsupervised Learning**  
-✔️ Principal Component Analysis (PCA)  
-✔️ K-Means Clustering  
-
-### ✅ **Preprocessing Techniques**  
-✔️ Feature Scaling: MinMaxScaler, StandardScaler, Normalization  
-
-### ✅ **Deep Learning Implementations**  
-✔️ XOR Problem (Basic Neural Network)  
-
-### ✅ **Projects**  
-✔️ Digit Recognition  
-✔️ House Price Prediction (GUI-based)  
-
----
-
-<a id="how-to-use"></a>
-## 🚀 How to Use  
-
-Clone the repository:  
-```bash
-
-git clone https://github.com/yourusername/MLDL-Algorithms.git
-cd MLDL-Algorithms
+```text
+Repository/
+│
+├── Deep Learning/
+│   ├── NN files...(ipynb)
+│   ├── NN files...(ipynb)
+│   ├── Activation Functions ( py implementation )
+│   └── XOR Neural Networks
+│
+├── Machine Learning/
+│   ├── From Scratch Implementations
+│   ├── Supervised Learning
+│   └── Unsupervised Learning
+│
+└── Projects/
+    ├── Digit Recognition
+    ├── Fake News Detection
+    ├── House Price Prediction
+    ├── Sentiment Analysis
+    └── Spam Email Classification
 ```
----
-
-<a id="future-plans"></a>
-## Future Plans
-- Fake News Detection
-- CNN Architecture
-- Sentiment Analysis
-=======
-=======
-
-
-# 📰 Fake News Detection using PassiveAggressiveClassifier
-
-This project focuses on detecting **fake news** using a machine learning approach. The model leverages the **PassiveAggressiveClassifier** from Scikit-learn and achieves **99% accuracy** on the test dataset.
 
 ---
 
-## 📌 Project Overview
+## Machine Learning
 
-- **Objective**: Classify news articles as *FAKE* or *REAL*.
-- **Model**: PassiveAggressiveClassifier
-- **Dataset**: News articles with labeled truths (fake or real)
-- **Accuracy Achieved**: ~99%
-- **Confusion Matrix**:
-  
+The Machine Learning section covers both theoretical and practical implementations.
 
----
+### From Scratch Implementations
 
-## 🛠️ Tech Stack
+Algorithms and utilities implemented without using high-level machine learning libraries:
 
-- Python
-- Scikit-learn
-- Pandas
-- NumPy
-- TfidfVectorizer
-- PassiveAggressiveClassifier
-- Matplotlib / Seaborn (for visualizations)
+* Evaluation Metrics
+* Data Preprocessing
+* Feature Scaling
+* Linear Regression
+* Logistic Regression
+* Latent Dirichlet Allocation (LDA)
 
----
+### Supervised Learning
 
-## 🧠 How it Works
+Notebook-based implementations using Scikit-Learn and PyTorch:
 
-1. **Text Preprocessing**  
-   - Lowercasing, stopword removal, punctuation cleaning  
-   - TF-IDF Vectorization
+#### Classification
 
-2. **Model Training**  
-   - PassiveAggressiveClassifier trained on TF-IDF features
+* Logistic Regression
+* K-Nearest Neighbors (KNN)
+* Decision Trees
+* Random Forests
+* Support Vector Machines (SVM)
+* Naive Bayes
+* Artificial Neural Networks (ANN)
 
-3. **Evaluation**  
-   - Accuracy Score
-   - Confusion Matrix
-   - Classification Report
+#### Regression
 
----
+* Linear Regression
+* KNN Regressor
+* Decision Tree Regressor
+* Random Forest Regressor
+* Support Vector Regressor (SVR)
+* Artificial Neural Networks (ANN)
 
-## 📊 Results
+### Unsupervised Learning
 
-- **Accuracy**: 99%
-- **Confusion Matrix**:
-
-  |           | Predicted FAKE | Predicted REAL |
-  |-----------|----------------|----------------|
-  | Actual FAKE | 4704           | 20             |
-  | Actual REAL | 30             | 4226           |
+* K-Means Clustering
+* DBSCAN
+* Principal Component Analysis (PCA)
 
 ---
 
+## Deep Learning
 
->>>>>>> Projects
+Deep Learning implementations focused on neural network fundamentals and classic CNN architectures.
+
+### Implemented Models
+
+* Artificial Neural Networks (ANN)
+* CNN for MNIST Classification
+* LeNet-5
+* AlexNet
+* VGG16
+
+### Additional Topics
+
+* Activation Functions
+
+  * Linear
+  * ReLU
+  * Sigmoid
+  * Tanh
+  * Softmax
+* XOR Neural Network (Pure Python)
+* Logic Gate Modeling
+
+---
+
+## Projects
+
+Practical machine learning and deep learning applications.
+
+### Digit Recognition
+
+Comparison of multiple classification models:
+
+| Model               | Accuracy   |
+| ------------------- | ---------- |
+| Logistic Regression | 92.21%     |
+| SVM                 | 92.80%     |
+| Random Forest       | 95.86%     |
+| CNN                 | **98.99%** |
+
+### Fake News Detection
+
+* Passive Aggressive Classifier
+* NLP-based text classification
+
+### House Price Prediction
+
+* Machine Learning prediction model
+* Flask API
+* Tkinter GUI
+
+### Sentiment Analysis
+
+* Naive Bayes Classifier
+* CountVectorizer feature extraction
+* Twitter sentiment classification
+
+### Spam Email Classification
+
+* CountVectorizer
+* Multinomial Naive Bayes
+* Included dataset
+
+---
+
+## Technologies Used
+
+### Programming Language
+
+* Python
+
+### Machine Learning
+
+* Scikit-Learn
+* NumPy
+* Pandas
+
+### Deep Learning
+
+* PyTorch
+* TensorFlow
+* Keras
+
+### Visualization
+
+* Matplotlib
+
+### Development Tools
+
+* Jupyter Notebook
+* Flask
+* Tkinter
+
+---
+
+## Learning Path
+
+If you're new to Machine Learning and Deep Learning, a recommended progression is:
+
+1. Explore the **From Scratch Implementations**
+2. Learn preprocessing techniques and evaluation metrics
+3. Study supervised learning algorithms
+4. Understand clustering and dimensionality reduction
+5. Explore neural network fundamentals
+6. Implement CNN architectures
+7. Build and experiment with the included projects
+
+---
+
+## Purpose
+
+This repository aims to bridge the gap between:
+
+```text
+Theory
+  ↓
+Mathematics
+  ↓
+Implementation from Scratch
+  ↓
+Framework-Based Development
+  ↓
+Real-World Projects
+```
+
+Whether you're learning machine learning fundamentals, exploring deep learning architectures, or building practical AI applications, this repository provides a structured path from concepts to implementation.
+
+---
+
+⭐ If you find this repository useful, consider giving it a star and using it as a reference for your Machine Learning and Deep Learning journey.
